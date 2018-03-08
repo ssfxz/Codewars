@@ -1,6 +1,6 @@
-// https://www.codewars.com/kata/simple-repeated-words/javascript
+// https://www.codewars.com/kata/simple-repeated-words/
 
-function solve(arr){  
+function solve(arr){
   return arr.map(str => {
     return str.toLowerCase().split("").reduce((count, char, index) => {
       if (char.charCodeAt(0) - 97 == index) {

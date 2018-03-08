@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/alphabet-symmetry/
+
 function solve(arr){  
   return arr.map(str => {
     return str.toLowerCase().split("").reduce((count, char, index) => {
@@ -8,4 +10,3 @@ function solve(arr){
     }, 0);
   });
 };
-
